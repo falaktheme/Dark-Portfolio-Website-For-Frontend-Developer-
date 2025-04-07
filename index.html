@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-logo">Portfolio</div>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-menu">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#Services" class="nav-link">Services</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#skill" class="nav-link">Skill</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="theme-toggle">
+            <i class="fas fa-moon"></i>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!-- Profile Card -->
+        <div class="profile-card" data-aos="fade-right">
+            <div class="profile-image-container">
+                <div class="profile-image">
+                    <img src="img/e3aed2bb2ad622f3cc50076091638dfc.jpg" alt="Profile Image">
+                </div>
+                <div class="status-indicator online"></div>
+            </div>
+            <h2 class="name">Your Name</h2>
+            <p class="title">Frontend Developer</p>
+            
+            <div class="social-links">
+                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+            </div>
+
+            <div class="details">
+                <div class="detail-item">
+                    <span class="label">Residence:</span>
+                    <span class="value">Your Location</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">City:</span>
+                    <span class="value">Your City</span>
+                </div>
+                <div class="detail-item">
+                    <span class="label">Age:</span>
+                    <span class="value">Your Age</span>
+                </div>
+            </div>
+
+            <div class="skills">
+                <h3>Skills</h3>
+                <div class="skill-bars">
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">HTML</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">CSS</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">JS</span>
+                            <span class="skill-percentage">80%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-info">
+                            <span class="skill-name">PHP</span>
+                            <span class="skill-percentage">90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress" data-progress="90"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="download-cv">
+                <span>DOWNLOAD CV</span>
+                <i class="fas fa-download"></i>
+            </button>
+        </div>
+
+        <!-- Main Content -->
+        <div class="main-content">
+            <section id="home" class="section introduce" data-aos="fade-up">
+                <span class="tag">INTRODUCE</span>
+                <h1 class="glitch-text">I Craft The <br><span class="highlight">Digital Landscape</span></h1>
+                <p class="typing-text">I am a <span class="highlight">Frontend Developer</span> at heart and, I create features that are best suited for the job at hand.</p>
+                
+                <div class="status">
+                    <span class="status-item"><i class="fas fa-check-circle"></i> Available for work</span>
+                    <span class="status-item"><i class="fas fa-check-circle"></i> Full Time Job</span>
+                </div>
+
+                <button class="hire-me">
+                    <span>HIRE ME</span>
+                    <i class="fas fa-paper-plane"></i>
+                </button>
+
+                <div class="stats-container">
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                        <h3>2+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                        <h3>50+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                        <h3>30+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                </div>
+
+                <div class="trusted-companies">
+                    <p class="trusted-text">Trusted companies</p>
+                    <div class="company-logos" data-aos="fade-up">
+                        <div class="company">
+                            <img src="https://placehold.co/100x50" alt="Company 1">
+                        </div>
+                        <div class="company">
+                            <img src="https://placehold.co/100x50" alt="Company 2">
+                        </div>
+                        <div class="company">
+                            <img src="https://placehold.co/100x50" alt="Company 3">
+                        </div>
+                        <div class="company">
+                            <img src="https://placehold.co/100x50" alt="Company 4">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="section about" data-aos="fade-up">
+                <span class="tag">ABOUT ME</span>
+                <h2>About <span class="highlight">Me</span></h2>
+                <p>Hi, my name is <span class="highlight">Your Name</span> and I began using WordPress when first began. I've spent most of my waking hours for the last ten years designing, programming and operating WordPress sites.</p>
+                
+                <div class="cards-container">
+                    <div class="service-card" data-aos="flip-left">
+                        <i class="fas fa-code"></i>
+                        <h3>Web Development</h3>
+                        <p>Creating beautiful, responsive websites</p>
+                    </div>
+                    <div class="service-card" data-aos="flip-left" data-aos-delay="100">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile First</h3>
+                        <p>Mobile-optimized experiences</p>
+                    </div>
+                    <div class="service-card" data-aos="flip-left" data-aos-delay="200">
+                        <i class="fas fa-paint-brush"></i>
+                        <h3>UI/UX Design</h3>
+                        <p>Intuitive and engaging interfaces</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Services" class="section services" data-aos="fade-up">
+                <span class="tag">SERVICES</span>
+                <h2>My <span class="highlight">Services</span></h2>
+                <p class="section-description">I offer a wide range of services to help bring your digital vision to life.</p>
+
+                <div class="services-grid">
+                    <div class="service-box" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="service-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Creating intuitive and engaging user interfaces with focus on user experience and modern design principles.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Wireframing</li>
+                            <li><i class="fas fa-check"></i> Prototyping</li>
+                            <li><i class="fas fa-check"></i> User Research</li>
+                        </ul>
+                        <a href="#contact" class="service-cta">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-box" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>Building responsive and performant websites using modern technologies and best practices.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Frontend Development</li>
+                            <li><i class="fas fa-check"></i> Backend Integration</li>
+                            <li><i class="fas fa-check"></i> API Development</li>
+                        </ul>
+                        <a href="#contact" class="service-cta">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-box" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="service-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>SEO / Marketing</h3>
+                        <p>Optimizing your digital presence to reach wider audience and improve search engine rankings.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> SEO Optimization</li>
+                            <li><i class="fas fa-check"></i> Content Strategy</li>
+                            <li><i class="fas fa-check"></i> Analytics Setup</li>
+                        </ul>
+                        <a href="#contact" class="service-cta">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+
+                    <div class="service-box" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="service-icon">
+                            <i class="fas fa-bullhorn"></i>
+                        </div>
+                        <h3>Branding & Strategy</h3>
+                        <p>Developing comprehensive branding strategies to make your business stand out in the digital space.</p>
+                        <ul class="service-features">
+                            <li><i class="fas fa-check"></i> Brand Identity</li>
+                            <li><i class="fas fa-check"></i> Market Research</li>
+                            <li><i class="fas fa-check"></i> Growth Strategy</li>
+                        </ul>
+                        <a href="#contact" class="service-cta">Get Started <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projects" class="section projects" data-aos="fade-up">
+                <span class="tag">PORTFOLIO</span>
+                <h2>Featured <span class="highlight">Projects</span></h2>
+                <p class="section-description">Showcasing some of my best work and creative projects.</p>
+
+                <div class="project-filters" data-aos="fade-up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="web">Web Apps</button>
+                    <button class="filter-btn" data-filter="mobile">Mobile Apps</button>
+                    <button class="filter-btn" data-filter="ui">UI/UX</button>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="100">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="Project 1">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <h3>E-Commerce Platform</h3>
+                            <p>A full-stack e-commerce solution with real-time inventory management.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="mobile" data-aos="fade-up" data-aos-delay="200">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="Project 2">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>Flutter</span>
+                                <span>Firebase</span>
+                            </div>
+                            <h3>Fitness Tracking App</h3>
+                            <p>Mobile app for tracking workouts and nutrition with social features.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ui" data-aos="fade-up" data-aos-delay="300">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="Project 3">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>Figma</span>
+                                <span>Adobe XD</span>
+                            </div>
+                            <h3>Banking App UI</h3>
+                            <p>Modern UI/UX design for a digital banking application.</p>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="web" data-aos="fade-up" data-aos-delay="400">
+                        <div class="project-image">
+                            <img src="https://placehold.co/600x400" alt="Project 4">
+                            <div class="project-overlay">
+                                <div class="project-actions">
+                                    <a href="#" class="project-link"><i class="fas fa-link"></i></a>
+                                    <a href="#" class="project-github"><i class="fab fa-github"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-tags">
+                                <span>Vue.js</span>
+                                <span>Express</span>
+                                <span>SQL</span>
+                            </div>
+                            <h3>Task Management System</h3>
+                            <p>Collaborative project management tool with real-time updates.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-cta" data-aos="fade-up">
+                    <a href="#" class="view-all-btn">
+                        View All Projects
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </section>
+
+            <section id="skill" class="section skills-section" data-aos="fade-up">
+                <span class="tag">SKILLS</span>
+                <h2>My <span class="highlight">Expertise</span></h2>
+                <p class="section-description">A showcase of my technical skills and proficiency levels.</p>
+
+                <div class="skills-container">
+                    <div class="skills-category" data-aos="fade-right">
+                        <h3><i class="fas fa-code"></i> Frontend Development</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-progress="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML5/CSS3</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">React.js</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category" data-aos="fade-left">
+                        <h3><i class="fas fa-server"></i> Backend Development</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-progress="75">
+                                <div class="skill-info">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="70">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">MongoDB</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category" data-aos="fade-right">
+                        <h3><i class="fas fa-paint-brush"></i> Design Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-progress="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">UI/UX Design</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="75">
+                                <div class="skill-info">
+                                    <span class="skill-name">Figma</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="70">
+                                <div class="skill-info">
+                                    <span class="skill-name">Adobe XD</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skills-category" data-aos="fade-left">
+                        <h3><i class="fas fa-tools"></i> Other Skills</h3>
+                        <div class="skill-items">
+                            <div class="skill-item" data-progress="90">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git & GitHub</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="85">
+                                <div class="skill-info">
+                                    <span class="skill-name">RESTful APIs</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item" data-progress="80">
+                                <div class="skill-info">
+                                    <span class="skill-name">Responsive Design</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-progress-bar">
+                                    <div class="skill-progress-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-footer" data-aos="fade-up">
+                    <div class="skills-stats">
+                        <div class="stat">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Years of Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projects Completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">20+</span>
+                            <span class="stat-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="education" class="section education-section" data-aos="fade-up">
+                <span class="tag">EDUCATION</span>
+                <h2>My <span class="highlight">Academic Journey</span></h2>
+                <p class="section-description">A timeline of my educational background and achievements.</p>
+
+                <div class="education-timeline">
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-dot">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="education-year">2020 - 2024</span>
+                                <span class="education-degree">Bachelor of Technology</span>
+                            </div>
+                            <h3 class="institution">Indian Institute of Technology</h3>
+                            <p class="education-field">Computer Science & Engineering</p>
+                            <div class="education-details">
+                                <div class="achievement">
+                                    <i class="fas fa-medal"></i>
+                                    <span>CGPA: 8.9/10</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-award"></i>
+                                    <span>Dean's List Award</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-star"></i>
+                                    <span>Technical Club Lead</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-left">
+                        <div class="timeline-dot">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="education-year">2018 - 2020</span>
+                                <span class="education-degree">Higher Secondary</span>
+                            </div>
+                            <h3 class="institution">Delhi Public School</h3>
+                            <p class="education-field">Science & Mathematics</p>
+                            <div class="education-details">
+                                <div class="achievement">
+                                    <i class="fas fa-medal"></i>
+                                    <span>Percentage: 95%</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>School Topper</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-code"></i>
+                                    <span>Coding Club President</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item" data-aos="fade-right">
+                        <div class="timeline-dot">
+                            <i class="fas fa-book"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <span class="education-year">2016 - 2018</span>
+                                <span class="education-degree">Secondary Education</span>
+                            </div>
+                            <h3 class="institution">St. Mary's School</h3>
+                            <p class="education-field">Science Stream</p>
+                            <div class="education-details">
+                                <div class="achievement">
+                                    <i class="fas fa-medal"></i>
+                                    <span>Percentage: 92%</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-microscope"></i>
+                                    <span>Science Fair Winner</span>
+                                </div>
+                                <div class="achievement">
+                                    <i class="fas fa-laptop-code"></i>
+                                    <span>Tech Club Member</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-footer" data-aos="fade-up">
+                    <div class="education-stats">
+                        <div class="edu-stat">
+                            <i class="fas fa-certificate"></i>
+                            <div class="stat-info">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Certifications</span>
+                            </div>
+                        </div>
+                        <div class="edu-stat">
+                            <i class="fas fa-trophy"></i>
+                            <div class="stat-info">
+                                <span class="stat-number">15+</span>
+                                <span class="stat-label">Academic Awards</span>
+                            </div>
+                        </div>
+                        <div class="edu-stat">
+                            <i class="fas fa-users"></i>
+                            <div class="stat-info">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Leadership Roles</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section contact-section" data-aos="fade-up">
+                <span class="tag">CONTACT</span>
+                <h2>Get In <span class="highlight">Touch</span></h2>
+                <p class="section-description">Let's discuss your project and bring your ideas to life.</p>
+
+                <div class="contact-container">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="contact-card">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Email</h3>
+                                    <p>your.email@example.com</p>
+                                    <a href="mailto:your.email@example.com" class="contact-link">Send Email</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Phone</h3>
+                                    <p>+91 123 456 7890</p>
+                                    <a href="tel:+911234567890" class="contact-link">Call Now</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-details">
+                                    <h3>Location</h3>
+                                    <p>Mumbai, India</p>
+                                    <a href="https://maps.google.com" target="_blank" class="contact-link">View on Map</a>
+                                </div>
+                            </div>
+
+                            <div class="social-links">
+                                <a href="#" class="social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="#" class="social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                                <a href="#" class="social-icon" title="Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                                <a href="#" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form" data-aos="fade-left">
+                        <form id="contactForm" onsubmit="return handleSubmit(event)">
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" id="name" name="name" required>
+                                    <label for="name">Your Name</label>
+                                    <i class="fas fa-user"></i>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="email" id="email" name="email" required>
+                                    <label for="email">Your Email</label>
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <input type="text" id="subject" name="subject" required>
+                                    <label for="subject">Subject</label>
+                                    <i class="fas fa-pencil-alt"></i>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="input-group">
+                                    <textarea id="message" name="message" required></textarea>
+                                    <label for="message">Your Message</label>
+                                    <i class="fas fa-comment-alt"></i>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="submit-btn">
+                                <span>Send Message</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="footer-top">
+                    <div class="footer-content">
+                        <div class="footer-section">
+                            <div class="footer-logo">
+                                <h3>Abdul<span class="highlight">Dev</span></h3>
+                            </div>
+                            <p class="footer-description">
+                                Crafting digital experiences with passion and precision. Let's build something amazing together.
+                            </p>
+                            <div class="footer-social">
+                                <a href="#" class="social-icon" title="LinkedIn">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="Twitter">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="YouTube">
+                                    <i class="fab fa-youtube"></i>
+                                </a>
+                                <a href="#" class="social-icon" title="Instagram">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="footer-section">
+                            <h4>Quick Links</h4>
+                            <ul class="footer-links">
+                                <li><a href="#about">About Me</a></li>
+                                <li><a href="#services">Services</a></li>
+                                <li><a href="#projects">Projects</a></li>
+                                <li><a href="#skill">Skills</a></li>
+                                <li><a href="#education">Education</a></li>
+                                <li><a href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-section">
+                            <h4>Services</h4>
+                            <ul class="footer-links">
+                                <li><a href="#services">Web Development</a></li>
+                                <li><a href="#services">Mobile Apps</a></li>
+                                <li><a href="#services">UI/UX Design</a></li>
+                                <li><a href="#services">API Development</a></li>
+                                <li><a href="#services">Cloud Solutions</a></li>
+                                <li><a href="#services">Consulting</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-section">
+                            <h4>Contact Info</h4>
+                            <ul class="footer-contact">
+                                <li>
+                                    <i class="fas fa-envelope"></i>
+                                    <a href="mailto:your.email@example.com">your.email@example.com</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-phone"></i>
+                                    <a href="tel:+911234567890">+91 123 456 7890</a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Mumbai, India</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-bottom">
+                    <div class="footer-content">
+                        <div class="footer-copyright">
+                            <p>&copy; 2024 AbdulDev. All rights reserved.</p>
+                        </div>
+                        <div class="footer-extra-links">
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Terms of Service</a>
+                            <a href="#">Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-shape"></div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Cursor Animation -->
+    <div class="cursor"></div>
+    <div class="cursor-dot"></div>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            offset: 50,
+            once: false
+        });
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
